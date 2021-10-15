@@ -1,0 +1,117 @@
+*{
+    margin:0cm;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+header{
+    background-color: white;
+    
+}
+
+table{
+    padding:0px 0px ;
+}
+table td{
+    padding: 0px 100px;
+}
+body{
+    background: url("img/Fondo Ciudad-02.png") fixed;
+    background-size: cover;
+}
+
+head{
+    background-color: white;
+    background-size: cover;
+}
+
+#buscarbar{
+    margin-right: 30px;
+    margin-top: 0;
+}
+
+#usuarioicon{
+    margin-left: 1200px;
+    margin-top: 0px;
+}
+#listcab{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    display: inline-block;
+    
+}
+
+
+
+#menusup{
+    list-style: none;
+   
+}
+#menusup ul{  
+    margin-left: 100px;  
+}
+
+#menusup ul li{
+    margin-top: 0px;
+    margin-left: 20px;
+    padding: 45px;
+    display: inline-block;
+}
+
+
+.iconmenu{
+    margin: 40 px 50px;
+    position: relative;
+    z-index: 10;
+
+}
+.iconmenu img{
+    vertical-align: top;
+    width: 40px;
+    cursor: pointer;
+
+}
+.Menulat{
+    background-color: white;
+    box-shadow:2px 0px 5px 2px rgb(66,66,66) ;
+    width: 400px;
+    height: 100vh;
+    position: absolute;
+    top:0;
+    left: 0;
+    transition: all .5s ease;
+
+}
+
+.Menulat ul{
+    padding: 100px 0px 20px 0px;
+    list-style: none;
+}
+
+.Menulat ul li{
+    
+    color: white;
+    display: block;
+    font-size: 25px;
+    text-decoration: none;
+    padding: 10px 50px;
+    cursor: pointer;
+}
+.Menulat ul li:hover{
+    background-color: yellow;
+    color: black;
+
+}
+
+.active{
+    transform: translate(-600px);
+}
+
+.opacity{
+    background-color: blue;
+    transition: all .5s ease;
+
+}
