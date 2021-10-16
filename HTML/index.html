@@ -12,8 +12,8 @@
 		<header>
 		<img id="logo" src="img/cropped-header-logo-2-1.png" >
 		<input id="buscarbar" type="text" placeholder="Search" required>
-		<img id="account" src="img/account.png" >
-		<img id="user" src="img/Usericon.png" >
+		<img id="account" src="img/account.png">
+		<img id="user" src="img/Usericon.png">
 		</header>
 		<nav>
 
@@ -21,33 +21,88 @@
 				
 				<table id="menusup">
 					<tr>
-						<td><img src="img/menham.png" id="iconmenu"></td>
+						<td><img src="img/menham.png" href="" id="iconmenu"></td>
 						<td><img src="img/Dashboard-8.png" href="" style="width: 1.5cm;height:1cm;"></td>
-						<td><img src="img/Reports-8.png" href="" style="width: 1cm;height:1cm;"></td>
+						<td><img src="img/Reports-8.png" href="" style="width: 1.15cm;height:1.15cm;"></td>
 						<td><img src="img/App Tour-8.png" href="" style="width: 1.5cm;height:1cm;"></td>
 						<td><img src="img/Charts-8.png" href="" style="width: 1cm;height:1cm;"></td>
 						<td><img src="img/Shortcodes-8.png" href="" style="width: 1.5cm;height:1cm;"></td>
-						<td><img src="img/Drops-8.png" style="width: 1cm;height:1cm;"></td>
-	
+						<td><img src="img/Drops-8.png" href="" style="width: 1cm;height:1cm;"></td>
 					</tr>		
 				</table>
 			</div>
 			<div class="Menulat active" id="menu">
 				<ul>
-					<li><img src="img/Dashboard2-8.png" style="width: 2.3cm;height:0.5cm;"></li>
-					<li><img src="img/Repost2-8.png" style="width: 2.3cm;height:0.7cm;"></li>
-					<li><img src="img/App Tour2-8.png" style="width: 2.8cm;height:0.5cm;"></li>
-					<li><img src="img/Charts2-8.png" style="width: 2.3cm;height:0.5cm;"></li>
-					<li><img src="img/Shortcodes2-8.png"  style="width: 2.8cm;height:0.5cm;"></li>
-					<li><img src="img/Drops2-8.png" style="width: 2.3cm;height:0.7cm;"></li>
+					<li><img src="img/Dashboard2-8.png" href="" style="width: 2.5cm;height:0.5cm;"></li>
+					<li><img src="img/Repost2-8.png" href="" style="width: 2.3cm;height:0.7cm;"></li>
+					<li><img src="img/App Tour2-8.png" href="" style="width: 2.8cm;height:0.5cm;"></li>
+					<li><img src="img/Charts2-8.png" href="" style="width: 2.3cm;height:0.5cm;"></li>
+					<li><img src="img/Shortcodes2-8.png" href="" style="width: 2.8cm;height:0.5cm;"></li>
+					<li><img src="img/Drops2-8.png" href="" style="width: 2.3cm;height:0.7cm;"></li>
 				</ul>
 			
 			<script src="app.js"></script>
-		</div>
-			
-		
-		
-			
+		</div>	
 		</nav>
+		
+		<main>
+			<section class="dashboard">
+
+				<button name="forms" id="btn_forms">Form Controls</button>	
+				<button name="js" id="btn_js">JS Controls</button>
+				<form>
+					<table id="dashtable">
+						<tr>
+							<td><h2>Username </h2><input id="Username" type="text"></td>
+							<td><h2>Text with Buttons</h2><input class="go" id="Username" type="text" oninput="" >
+								<input  class="go" type="button" name="btn_go" id="btn_go" value="GO!">
+								<br></td>
+						</tr>
+						<tr>
+							<td><h2>Email Address</h2><input id="Username" type="email" ></td>
+							<td><h2>Combined TextBox</h2> 
+								<input type="button" class="go" id="btn_go" name="cash" value="$">
+								<input type="text" id="Username" >
+								<input type="button" class="go" id="btn_go" name="zeros" value="0.0">
+								<br></td>
+						</tr>
+						<tr>
+							<td><h2>First Name</h2><input id="Username" type="text" ></td>
+							<td><h2 class="r_btn">Radio Buttons  </h2>
+								<input class="r_btn" id="checkmark" type="radio" value="op1"><h3 class="r_btn">option 1  </h3>
+								<input class="r_btn" id="checkmark" type="radio" value="op2"><h3 class="r_btn">option 2  </h3>
+								<br></td>
+						</tr>
+						<tr>
+							<td><h2>Last Name</h2><input id="Username" type="text" ></td>
+							<td><h2 class="chk_btn">Checkboxes</h2>
+								<input class="chk_btn" id="checkmark" type="checkbox" value="chk_op1"><h3 class="chk_btn">option 1</h3>
+								<input class="chk_btn" id="checkmark" type="checkbox" value="chk_op2"><h3 class="chk_btn">option 2</h3>
+								</td>
+						</tr>
+						<tr>
+							<td><h2>Password</h2><input id="Username" type="text" ></td>
+							<td><h2>Button Size</h2>
+								<button id="btn_big">STAR</button>
+								<button id="btn_med">STAR</button>
+								<button id="btn_smll">STAR</button>
+								</td>
+						</tr>	
+						<tr>
+							<td><h2>Password Confirm</h2><input id="Username" type="text" ></td>
+							<td><h2 class="go">Dropdown in a button group</h2>
+								<select class="go" id="sel">
+									<option class="go">user</option>
+									<option class="go">option 2</option>
+								</select></td>
+						</tr>
+						<tr>
+							<td colspan="2"><input type="submit" name="botonsave" id="botonfinal1" value="save"> <input type="button" name="botoncancel" id="botonfinal2" value="cancel"></td>
+						</tr>
+					</table>
+				</form>
+			</section>
+		</main>
+
 	</body>
 </html>
