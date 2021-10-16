@@ -1,51 +1,53 @@
 <!DOCTYPE html>
 <html>
 	<head >
-	<meta charset="UTF-8">
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<title>Rustico</title>
-		
-		<!--<img src="img/cropped-header-logo-2-1.png" style="width: 200px;height:90px;">
-		<div><input id="buscarbar" type="text" placeholder="buscar" required></div>
-		<div><img id="usuarioicon" src="img/Usericon.png" style="width: 80px;height:40px;"></div>-->
 		<link rel="stylesheet" href="style.css">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
 	</head>
 
 	<body>
 		<header>
-			<table>
-			<tr>
-				<td><img src="img/cropped-header-logo-2-1.png" style="width: 200px;height:90px;"></td>
-				<td><input id="buscarbar" type="text" placeholder="buscar" required></td>
-				<td><img src="img/account.png" style="width: 80px;height:40px;" ></td>
-				<td><img src="img/Usericon.png" style="width: 80px;height:40px;" ></td>
-			</tr>
-		</table>
+		<img id="logo" src="img/cropped-header-logo-2-1.png" >
+		<input id="buscarbar" type="text" placeholder="Search" required>
+		<img id="account" src="img/account.png" >
+		<img id="user" src="img/Usericon.png" >
 		</header>
-		<div id="menusup">
-			<ul>
-				<li><img src="img/Dashboard-8.png" href="" style="width: 80px;height:70px;"></li>
-				<li><img src="img/Reports-8.png" href="" style="width: 80px;height:70px;"></li>
-				<li><img src="img/App Tour-8.png" href="" style="width: 80px;height:70px;"></li>
-				<li><img src="img/Charts-8.png" href="" style="width: 80px;height:70px;"></li>
-				<li><img src="img/Shortcodes-8.png" href="" style="width: 80px;height:70px;"></li>
-				<li><img src="img/Drops-8.png" style="width: 80px;height:70px;"></li>
+		<nav>
 
-			</ul>		
-		</div>
+			<div class="iconmenu">
+				
+				<table id="menusup">
+					<tr>
+						<td><img src="img/menham.png" id="iconmenu"></td>
+						<td><img src="img/Dashboard-8.png" href="" style="width: 1.5cm;height:1cm;"></td>
+						<td><img src="img/Reports-8.png" href="" style="width: 1cm;height:1cm;"></td>
+						<td><img src="img/App Tour-8.png" href="" style="width: 1.5cm;height:1cm;"></td>
+						<td><img src="img/Charts-8.png" href="" style="width: 1cm;height:1cm;"></td>
+						<td><img src="img/Shortcodes-8.png" href="" style="width: 1.5cm;height:1cm;"></td>
+						<td><img src="img/Drops-8.png" style="width: 1cm;height:1cm;"></td>
 	
-		<div class="iconmenu">
-			<img src="img/menham.png" id="iconmenu">
+					</tr>		
+				</table>
+			</div>
+			<div class="Menulat active" id="menu">
+				<ul>
+					<li><img src="img/Dashboard2-8.png" style="width: 2.3cm;height:0.5cm;"></li>
+					<li><img src="img/Repost2-8.png" style="width: 2.3cm;height:0.7cm;"></li>
+					<li><img src="img/App Tour2-8.png" style="width: 2.8cm;height:0.5cm;"></li>
+					<li><img src="img/Charts2-8.png" style="width: 2.3cm;height:0.5cm;"></li>
+					<li><img src="img/Shortcodes2-8.png"  style="width: 2.8cm;height:0.5cm;"></li>
+					<li><img src="img/Drops2-8.png" style="width: 2.3cm;height:0.7cm;"></li>
+				</ul>
+			
+			<script src="app.js"></script>
 		</div>
-		<div class="Menulat active" id="menu">
-			<ul>
-				<li><img src="img/Dashboard2-8.png"></li>
-				<li><img src="img/Repost2-8.png"></li>
-				<li><img src="img/App Tour2-8.png"></li>
-				<li><img src="img/Charts2-8.png"></li>
-				<li><img src="img/Shortcodes2-8.png"></li>
-				<li><img src="img/Drops2-8.png"></li>
-			</ul>
-		</div>
-		<script src="app.js"></script>
+			
+		
+		
+			
+		</nav>
 	</body>
 </html>

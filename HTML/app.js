@@ -1,5 +1,5 @@
 const iconmenu = document.querySelector('#iconmenu'),
- menu=document.querySelector('#menu');
+menu=document.querySelector('#menu');
 
  iconmenu.addEventListener('click',(e)=>{
      menu.classList.toggle('active')

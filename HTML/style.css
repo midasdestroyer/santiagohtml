@@ -4,32 +4,77 @@
     box-sizing: border-box;
 
 }
-
-header{
-    background-color: white;
-    
-}
-
-table{
-    padding:0px 0px ;
-}
-table td{
-    padding: 0px 100px;
-}
 body{
     background: url("img/Fondo Ciudad-02.png") fixed;
     background-size: cover;
 }
-
-head{
+header{
     background-color: white;
-    background-size: cover;
+    height: 1.5cm;
+}
+
+#logo{
+    width: 3cm;
+    height: 1cm;
+    margin:15px 1cm;
 }
 
 #buscarbar{
-    margin-right: 30px;
-    margin-top: 0;
+    
+    width:8cm;
+    height: 0.7cm;
+    padding: 0px 20px;
+    font-size: 20px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color:black;
+    outline: none;
+    border: 1px solid silver;
+    border-radius: 20px;
+    margin-left: 8cm;
+    vertical-align:0.8cm;
 }
+
+#account{
+    margin-left: 6cm;
+    vertical-align:20px;
+    width: 3cm;
+    height: 1cm;
+}
+
+#user{
+    width: 2.6cm;
+    height: 1.1cm;
+    margin-left: 0.9cm;
+    vertical-align:18px;
+}
+section{
+    width: 400px;
+    height: 650px;
+    
+}
+nav{
+    margin-left: 100px;
+    padding: 0px 0px;
+}
+
+#menusup{
+    margin-left: 200px;
+}
+
+#menusup tr{}
+
+#menusup tr td{
+    padding:25px 25px;
+}
+
+table{
+    margin-left: 0px;
+    padding:0px 0px ;
+}
+table td{
+    padding: 0px 85px;
+}
+
 
 #usuarioicon{
     margin-left: 1200px;
@@ -43,8 +88,6 @@ head{
     display: inline-block;
     
 }
-
-
 
 #menusup{
     list-style: none;
@@ -63,21 +106,20 @@ head{
 
 
 .iconmenu{
-    margin: 40 px 50px;
+    margin: 0px 0px;
     position: relative;
     z-index: 10;
-
 }
 .iconmenu img{
-    vertical-align: top;
-    width: 40px;
+    margin-left: 0cm;
+    margin-top: 0cm;
+    width: 35px;
     cursor: pointer;
-
 }
 .Menulat{
-    background-color: white;
+    background-color: rgb(30, 30, 30);
     box-shadow:2px 0px 5px 2px rgb(66,66,66) ;
-    width: 400px;
+    width: 200px;
     height: 100vh;
     position: absolute;
     top:0;
@@ -99,19 +141,157 @@ head{
     text-decoration: none;
     padding: 10px 50px;
     cursor: pointer;
+    
 }
 .Menulat ul li:hover{
-    background-color: yellow;
+    background-color: rgb(15, 15, 15);
     color: black;
+    width: 10cm;
+
 
 }
 
 .active{
-    transform: translate(-600px);
+    transform:translateY(600px);
+     
 }
 
 .opacity{
-    background-color: blue;
+    
     transition: all .5s ease;
 
+}
+
+
+
+/* responsive media query start */
+@media (max-width: 1300px) {
+    .home .max-width {
+        margin-left: 0px;
+    }
+}
+
+@media (max-width: 1104px) {
+    .about .about-content .left img {
+        height: 350px;
+        width: 250px;
+    }
+}
+
+
+@media (max-width: 991px) {
+    .max-width {
+        padding: 0 50px;
+    }
+}
+
+@media (max-width: 947px) {
+    .menu-btn {
+        display: block;
+        z-index: 999;
+    }
+
+        .menu-btn i.active:before {
+            content: "\f00d";
+        }
+
+    .navbar .menu {
+        position: fixed;
+        height: 100vh;
+        width: 100%;
+        left: -100%;
+        top: 0;
+        background: #111;
+        text-align: center;
+        padding-top: 80px;
+        transition: all 0.3s ease;
+    }
+
+        .navbar .menu.active {
+            left: 0;
+        }
+
+        .navbar .menu li {
+            display: block;
+        }
+
+            .navbar .menu li a {
+                display: inline-block;
+                margin: 20px 0;
+                font-size: 25px;
+            }
+
+    .home .home-content .text-2 {
+        font-size: 70px;
+    }
+
+    .home .home-content .text-3 {
+        font-size: 35px;
+    }
+
+    .home .home-content a {
+        font-size: 23px;
+        padding: 10px 30px;
+    }
+
+    .max-width {
+        max-width: 800px;
+    }
+
+    .about .about-content .column {
+        width: 100%;
+    }
+
+    .about .about-content .left {
+        display: flex;
+        justify-content: center;
+        margin: 0 auto 60px;
+    }
+
+    .about .about-content .right {
+        flex: 100%;
+    }
+
+    .services .serv-content .card {
+        width: calc(50% - 10px);
+        margin-bottom: 20px;
+    }
+
+    .skills .skills-content .column,
+    .contact .contact-content .column {
+        width: 100%;
+        margin-bottom: 35px;
+    }
+}
+
+@media (max-width: 690px) {
+    .max-width {
+        padding: 0 23px;
+    }
+
+    .home .home-content .text-2 {
+        font-size: 60px;
+    }
+
+    .home .home-content .text-3 {
+        font-size: 32px;
+    }
+
+    .home .home-content a {
+        font-size: 20px;
+    }
+
+    .services .serv-content .card {
+        width: 100%;
+    }
+}
+
+@media (max-width: 500px) {
+    .home .home-content .text-2 {
+        font-size: 50px;
+    }
+
+    .home .home-content .text-3 {
+        font-size: 27px;
+    }
 }
