@@ -2,22 +2,26 @@
 *{
     margin:0cm;
     padding: 0;
-    box-sizing: border-box;
+   
+
 
 }
 body{
     background: url("img/Fondo Ciudad-02.png") fixed;
     background-size: cover;
+
 }
 header{
     background-color: white;
     height: 1.5cm;
+
 }
 
 #logo{
     width: 3cm;
     height: 1cm;
     margin:15px 1cm;
+
 }
 
 #buscarbar{
@@ -33,13 +37,16 @@ header{
     border-radius: 20px;
     margin-left: 8cm;
     vertical-align:0.8cm;
+
 }
+
 
 #account{
     margin-left: 6cm;
     vertical-align:20px;
     width: 3cm;
     height: 1cm;
+
 }
 
 #user{
@@ -47,19 +54,23 @@ header{
     height: 1.1cm;
     margin-left: 0.9cm;
     vertical-align:18px;
+
 }
 section{
     width: 400px;
     height: 650px;
-    
+
 }
 nav{
     margin-left: 100px;
     padding: 0px 0px;
-}
+
+}   
 
 #menusup{
     margin-left: 50px;
+
+
 }
 
 #menusup tr{
@@ -68,20 +79,24 @@ nav{
 
 #menusup tr td{
     padding:25px 50px;
+
 }
 
 table{
     margin-left: 0px;
     padding:0px 0px ;
+
 }
 table td{
     padding: 0px 85px;
+
 }
 
 
 #usuarioicon{
     margin-left: 1200px;
     margin-top: 0px;
+
 }
 #listcab{
     list-style: none;
@@ -89,15 +104,18 @@ table td{
     padding: 0;
     background-color: white;
     display: inline-block;
-    
+
 }
 
 #menusup{
     list-style: none;
-   
+    display: block;
+    overflow-x: auto;
+
 }
 #menusup ul{  
     margin-left: 100px;  
+
 }
 
 #menusup ul li{
@@ -105,23 +123,27 @@ table td{
     margin-left: 20px;
     padding: 200px;
     display: inline-block;
+
 }
 
  #menusuo ul li:hover{
      background-color: white;
      width: 200px;
      height: 200px;
+
  }
 
 .iconmenu{
     margin: 0px 0px;
     position: relative;
     z-index: 10;
+
 }
 .iconmenu img{
     vertical-align: top;
     width: 35px;
     cursor: pointer;
+
 }
 .Menulat{
     background-color: rgb(30, 30, 30);
@@ -138,6 +160,7 @@ table td{
 .Menulat ul{
     padding: 100px 0px 20px 0px;
     list-style: none;
+
 }
 
 .Menulat ul li{
@@ -148,22 +171,22 @@ table td{
     text-decoration: none;
     padding: 10px 50px;
     cursor: pointer;
-    
+
 }
 .Menulat ul li:hover{
     background-color: white;
     color: white;
     width: 200px;
 
-
 }
 /*dashboard group*/
 .dashboard{
     background-color: white;
     width: 28cm;
-    height: 13.3cm;
+    height: 14cm;
     margin-left: 4cm;
     border-radius: 10px;
+
 }
 
 #btn_forms{
@@ -179,6 +202,7 @@ table td{
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-weight: bold;
     cursor: pointer ;
+
 }
 #btn_js{
     margin-left: 3px;
@@ -192,6 +216,7 @@ table td{
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-weight: bold;
     cursor:pointer;
+
 }
 
 #dashtable{
@@ -201,13 +226,14 @@ table td{
     height: 11.5cm;
     border:none;
     border-collapse: collapse;
+
 }
 #dashtable th{
     border:1px solid black;
     width: 20cm;
     height: 4cm;
 
-}
+}   
 
 h2{
     
@@ -219,33 +245,38 @@ h2{
     margin-top: 0px;
     align-items: left;
     font-weight:normal;
+
 }
 #Username{
     width:8cm;
     height: 0.8cm;
     font-size: 23px;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    
+
 }
 #Email{
     width:10cm;
     height: 1cm;
+
 }
 
 .r_btn{
     display: inline-block;
     cursor: pointer;
+
 }
 #checkmark{
     height: 15px;
     width: 15px;
     margin-left: 5px;
+
 }
 h3{
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 15px;
     font-weight: bold;
     margin-left: 5px;
+
 }
 
 .chk_btn{
@@ -262,18 +293,21 @@ h3{
     font-weight: bold; 
     vertical-align: middle;
     margin-top: 0cm;
+
 }
 .go{
     display: inline-block;
     vertical-align: middle;
     cursor: pointer;
+
 }
 #btn_big{
     width: 1.7cm;
     height: 1.1cm;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 17px;
-    font-weight: bold; 
+    font-weight: bold;
+
 }
 #btn_med{
     width: 1.4cm;
@@ -282,6 +316,7 @@ h3{
     font-size: 14px;
     font-weight: bold; 
     margin-left: 4px;
+
 }
 #btn_smll{
     width: 1.2cm;
@@ -290,6 +325,7 @@ h3{
     font-size: 11px;
     font-weight: bold; 
     margin-left: 4px;
+
 }
 
 #botonfinal1{
@@ -319,6 +355,7 @@ h3{
     margin-left: 2cm;
     border:none;
     cursor:pointer;
+ 
 }
 
 #sel{
@@ -326,21 +363,23 @@ h3{
     border:none;
     width: 80px;
     height: 30px;
+
 }
 .active{
     transform:translate(-600px);
-     
+
 }
 
 .opacity{
     
     transition: all .5s ease;
-
+    
 }
 
 
 
 /* responsive media query start */
+/*
 @media (max-width: 1300px) {
     .home .max-width {
         margin-left: 0px;
@@ -470,4 +509,4 @@ h3{
     .home .home-content .text-3 {
         font-size: 27px;
     }
-}
+}*/
