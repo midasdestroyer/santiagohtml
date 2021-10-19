@@ -160,9 +160,9 @@ table td{
 /*dashboard group*/
 .dashboard{
     background-color: white;
-    width: 24cm;
-    height: 13cm;
-    margin-left: 7cm;
+    width: 28cm;
+    height: 13.3cm;
+    margin-left: 4cm;
     border-radius: 10px;
 }
 
@@ -175,10 +175,10 @@ table td{
     border-top-left-radius: 6px;
     border-top-right-radius: 6px;
     height: 1cm;
-    width: 3.6cm;
+    width: 4.5cm;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-weight: bold;
-    cursor: pointer;
+    cursor: pointer ;
 }
 #btn_js{
     margin-left: 3px;
@@ -188,7 +188,7 @@ table td{
     border-top-left-radius: 6px;
     border-top-right-radius: 6px;
     height: 1cm;
-    width: 3.6cm;
+    width: 4.5cm;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-weight: bold;
     cursor:pointer;
@@ -197,9 +197,9 @@ table td{
 #dashtable{
     margin-left: 0cm;
     margin-top: 0cm;
-    width: 24cm;
-    height: 11cm;
-    border: none;
+    width: 28cm;
+    height: 11.5cm;
+    border:none;
     border-collapse: collapse;
 }
 #dashtable th{
@@ -211,7 +211,7 @@ table td{
 
 h2{
     
-    font-size: 13px;
+    font-size: 18px;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     padding-bottom: 10px;
     padding-top: 5px;
@@ -221,9 +221,9 @@ h2{
     font-weight:normal;
 }
 #Username{
-    width:6cm;
+    width:8cm;
     height: 0.8cm;
-    font-size: 20px;
+    font-size: 23px;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     
 }
@@ -251,6 +251,7 @@ h3{
 .chk_btn{
     display: inline-block;
     cursor: pointer;
+    vertical-align: middle;
 
 }
 #btn_go{
@@ -259,10 +260,12 @@ h3{
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 11px;
     font-weight: bold; 
-    vertical-align: 0px;
+    vertical-align: middle;
+    margin-top: 0cm;
 }
 .go{
     display: inline-block;
+    vertical-align: middle;
     cursor: pointer;
 }
 #btn_big{
@@ -297,6 +300,7 @@ h3{
     font-size: 14px;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-weight: bold;
+    color:white;
     margin-top: 8px;
     margin-left: 6cm;
     border:none;
@@ -310,6 +314,7 @@ h3{
     font-size: 14px;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-weight: bold;
+    color:white;
     margin-top: 8px;
     margin-left: 2cm;
     border:none;
