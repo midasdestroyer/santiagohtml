@@ -50,55 +50,124 @@
 
 				<button name="forms" id="btn_forms">Form Controls</button>	
 				<button name="js" id="btn_js">JS Controls</button>
-					<table id="dashtable">
-						<tr>
-							<td><h2>Username </h2><input id="Username" type="text"></td>
-							<td><h2>Text with Buttons</h2><input class="go" id="Username" type="text" oninput="" >
-								<input  class="go" type="button" name="btn_go" id="btn_go" value="GO!">
-								</td>
-						</tr>
-						<tr>
-							<td><h2>Email Address</h2><input id="Username" type="email" ></td>
-							<td><h2>Combined TextBox</h2> 
-								<input type="button" class="go" id="btn_go" name="cash" value="$">
-								<input type="text" id="Username" >
-								<input type="button" class="go" id="btn_go" name="zeros" value="0.0">
-								</td>
-						</tr>
-						<tr>
-							<td><h2>First Name</h2><input id="Username" type="text" ></td>
-							<td><h2 class="r_btn">Radio Buttons  </h2>
-								<input class="r_btn" id="checkmark" type="radio" value="op1"><h3 class="r_btn">option 1  </h3>
-								<input class="r_btn" id="checkmark" type="radio" value="op2"><h3 class="r_btn">option 2  </h3>
-								</td>
-						</tr>
-						<tr>
-							<td><h2>Last Name</h2><input id="Username" type="text" ></td>
-							<td><h2 class="chk_btn">Checkboxes</h2>
-								<input class="chk_btn" id="checkmark" type="checkbox" value="chk_op1"><h3 class="chk_btn">option 1</h3>
-								<input class="chk_btn" id="checkmark" type="checkbox" value="chk_op2"><h3 class="chk_btn">option 2</h3>
-								</td>
-						</tr>
-						<tr>
-							<td><h2>Password</h2><input id="Username" type="text" ></td>
-							<td><h2>Button Size</h2>
-								<button id="btn_big">STAR</button>
-								<button id="btn_med">STAR</button>
-								<button id="btn_smll">STAR</button>
-								</td>
-						</tr>	
-						<tr>
-							<td><h2>Password Confirm</h2><input id="Username" type="text" ></td>
-							<td><h2 class="go">Dropdown in a button group</h2>
-								<select class="go" id="sel">
-									<option class="go">user</option>
-									<option class="go">option 2</option>
-								</select></td>
-						</tr>
-						<tr>
-							<td colspan="2"><input type="submit" name="botonsave" id="botonfinal1" value="save"> <input type="button" name="botoncancel" id="botonfinal2" value="cancel"></td>
-						</tr>
-					</table>
+				<div class="container">
+					<form class="formulario" action="/actionpage">
+						<div class="columna">
+							<div class="row">
+								<div class="col-25">
+									<label for="fname">Username</label>
+								</div>
+								<div class="col-75">
+									<input id="Username" type="text">
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-25">
+									<label for="fname">Email address</label>
+								</div>
+								<div class="col-75">
+									<input id="Username" type="email" >
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-25">
+									<label for="fname">First Name</label>
+								</div>
+								<div class="col-75">
+									<input id="Username" type="text" >
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-25">
+									<label for="fname">Last name</label>
+								</div>
+								<div class="col-75">
+									<input id="Username" type="text" >
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-25">
+									<label for="fname">password</label>
+								</div>
+								<div class="col-75">
+									<input id="Username" type="text" >
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-25">
+									<label for="fname">confirm password</label>
+								</div>
+								<div class="col-75">
+									<input id="Username" type="text" >
+								</div>
+							</div>
+						</div>
+						<div class="columna2">
+							<div class="row">
+								<div class="col-25">
+									<label for="fname">Text with button</label>
+								</div>
+								<div class="col-75">
+									<input class="go" id="Username" type="text" oninput="">
+									<input  class="go" type="button" name="btn_go" id="btn_go" value="GO!">
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-25">
+									<label for="fname">Combined TextBox</label>
+								</div>
+								<div class="col-75">
+									<input type="button" class="go" id="btn_go" name="cash" value="$">
+									<input type="text" id="Username" >
+									<input type="button" class="go" id="btn_go" name="zeros" value="0.0">
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-25">
+								<br>
+									<label for="fname">Radio button</label>
+								
+									<input type="radio" class="r_btn" id="checkmark"  value="op1"><h3 class="r_btn" >option 1  </h3>
+									<input type="radio" class="r_btn" id="checkmark"  value="op2"><h3 class="r_btn" >option 2  </h3><br>
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-25">
+								<br>
+									<label for="fname">Checkboxes</label>
+								
+									<input class="chk_btn" id="checkmark" type="checkbox" value="chk_op1"><h3 class="chk_btn">option 1</h3>
+									<input class="chk_btn" id="checkmark" type="checkbox" value="chk_op2"><h3 class="chk_btn">option 2</h3><br>
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-25">
+									<label for="fname">Button Size</label>
+								</div>
+								<div class="col-75">
+									<button id="btn_big">STAR</button>
+									<button id="btn_med">STAR</button>
+									<button id="btn_smll">STAR</button>
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-25">
+									<label for="fname" class="group">Dropdown in a button group</label>
+									<select class="group" id="sel">
+										<option class="group">user</option>
+										<option class="group">option 2</option>
+									</select>
+								</div>
+							</div>	
+						</div>		
+					
+					</form>
+					<div class="btnfin">
+						<div class="col-75">
+							<input type="submit" name="botonsave" id="botonfinal1" value="save"> <input type="button" name="botoncancel" id="botonfinal2" value="cancel">							
+						</div>
+					</div>
+				</div>	
 			</section>
 		</main>
 

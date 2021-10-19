@@ -2,9 +2,6 @@
 *{
     margin:0cm;
     padding: 0;
-   
-
-
 }
 body{
     background: url("img/Fondo Ciudad-02.png") fixed;
@@ -16,6 +13,21 @@ header{
     height: 1.5cm;
 
 }
+
+.formulario:before,.formulario:after{
+		content:"";
+		display:table;	
+	}
+
+.formulario:after{
+	clear:both;
+}
+.columna{
+	width: 50%;
+	padding: 10px 30px;
+	float:left;
+}
+
 
 #logo{
     width: 3cm;
@@ -133,6 +145,7 @@ table td{
 
  }
 
+
 .iconmenu{
     margin: 0px 0px;
     position: relative;
@@ -235,70 +248,87 @@ table td{
 
 }   
 
-h2{
+.formulario label{
     
     font-size: 18px;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    padding-bottom: 10px;
-    padding-top: 5px;
+   padding:0px 5px 5px 2px;
     margin-left: 0px;
-    margin-top: 0px;
-    align-items: left;
-    font-weight:normal;
-
+    margin-top: 20px;
+    font-weight:bold;
+	float:center;
+	padding-bottom:40px;
+	font-weight:normal;
+	
 }
-#Username{
-    width:8cm;
-    height: 0.8cm;
-    font-size: 23px;
+.formulario input{
+	width:9cm;
+	height:0.8cm;
+	font-size: 16px;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-
+	
 }
-#Email{
-    width:10cm;
-    height: 1cm;
-
+.row{
+	padding:6px;
+	padding-top:5px;
+}
+.botones{
+	float:center;
 }
 
 .r_btn{
     display: inline-block;
     cursor: pointer;
-
+	font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 18px;
+    font-weight: normal;
+	padding-top: 0px;
+	padding-right:10px;
+	vertical-align:center;
 }
+
 #checkmark{
-    height: 15px;
-    width: 15px;
+    height: 17px;
+    width: 17px;
+	margin-top:10px;
     margin-left: 5px;
-
+	vertical-align:center;
+	padding-top:10px
+	
 }
-h3{
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 15px;
-    font-weight: bold;
-    margin-left: 5px;
 
-}
 
 .chk_btn{
     display: inline-block;
     cursor: pointer;
-    vertical-align: middle;
-
+	font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 18px;
+    font-weight: normal; 
+	padding-top:0px;
+	vertical-align:center;
+	padding-right:10px;
 }
 #btn_go{
-    width: 0.8cm;
-    height: 0.8cm;
+    width: 0.9cm;
+    height: 0.9cm;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 11px;
     font-weight: bold; 
     vertical-align: middle;
     margin-top: 0cm;
+	color:black;
+	padding-top:4px;
 
 }
 .go{
     display: inline-block;
     vertical-align: middle;
     cursor: pointer;
+	font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	font-size: 14px;
+}
+.group{
+	display:inline-block;
 
 }
 #btn_big{
@@ -337,8 +367,8 @@ h3{
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-weight: bold;
     color:white;
-    margin-top: 8px;
-    margin-left: 6cm;
+    margin-top: 0px;
+    margin-left: 10cm;
     border:none;
     cursor:pointer;
 }
@@ -351,7 +381,7 @@ h3{
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-weight: bold;
     color:white;
-    margin-top: 8px;
+    margin-top: 0px;
     margin-left: 2cm;
     border:none;
     cursor:pointer;
@@ -361,9 +391,8 @@ h3{
 #sel{
     background-color: rgb(202, 201, 201);
     border:none;
-    width: 80px;
+    width: 100px;
     height: 30px;
-
 }
 .active{
     transform:translate(-600px);
