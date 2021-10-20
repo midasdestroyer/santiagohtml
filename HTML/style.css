@@ -80,7 +80,7 @@ nav{
 }   
 
 #menusup{
-    margin-left: 50px;
+    margin-left: 0px;
 
 
 }
@@ -123,17 +123,17 @@ table td{
     list-style: none;
     display: block;
     overflow-x: auto;
-
+    margin-left: 0px;
 }
 #menusup ul{  
-    margin-left: 100px;  
+    margin-left: 0px;  
 
 }
 
 #menusup ul li{
     margin-top: 0px;
-    margin-left: 20px;
-    padding: 200px;
+    margin-left: 80px;
+    padding: 13px;
     display: inline-block;
 
 }
@@ -196,7 +196,7 @@ table td{
 .dashboard{
     background-color: white;
     width: 28cm;
-    height: 14cm;
+    height: 13.5cm;
     margin-left: 4cm;
     border-radius: 10px;
 
